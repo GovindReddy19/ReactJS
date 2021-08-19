@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="../CSS/Events.css">
+    
+</head>
+<body>
+
+    <form>
+        <input type="text" class="userid" placeholder="user name"/>
+    </form>
+    <!DOCTYPE html>
+    <html>
+    <body>
+    
+    <p>This is a p element.</p>
+    
+    <p id="#para">This is also a p element.</p>
+    
+    <h2>Click the button to add a background color to the first p element in the document.</h2>
+    
+    <button onclick="myFunction()">Try it</button>
+    
+    <script>
+        document.addEventListener("click", myFunction);
+        function myFunction() {
+      document.querySelector("p").style.backgroundColor = "red";
+      document.querySelector("p").style.marginLeft = "30px";
+      document.querySelector("h2").style.border = "2px solid blue";
+      document.querySelector("h2").style.background = "lightpink";
+      document.querySelector("h2").style.padding = "50px";
+      document.querySelector("h2").style.borderRadius = "10px";
+      document.querySelector("h2").style.WebkitTransitionDuration="3s";
+      document.querySelector("h2").style.webkitTransform = "rotate(360deg)";
+    }
+        </script>
+    
+    </body>
+    </html>
+    
+  
+  
+  
+  
+    <script src="../JavaScript/Events.js"></script>
+</body>
+</html>
